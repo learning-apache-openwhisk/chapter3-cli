@@ -4,6 +4,3 @@ wsk action invoke basics/log-alpha
 wsk action invoke basics/log-beta 
 wsk activation list --limit 2 
 #wsk activation poll --since-seconds 60 --exit 60
-wsk trigger create basics-alert
-wsk trigger list
-wsk trigger get basics-alert
